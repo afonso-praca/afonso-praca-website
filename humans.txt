@@ -1,0 +1,15 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  designer: afonso praça
+  developer: afonso praça
+
+/* THANKS */
+  Pedro Segreto e Malt (http://caosdesign.com.br):
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Software: Sublime Text 2
