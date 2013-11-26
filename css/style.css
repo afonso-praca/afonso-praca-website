@@ -236,7 +236,7 @@ body {
   -moz-opacity: 0;
   filter:alpha(opacity=0);
 
-  width:520px;
+  width:580px;
   position: relative;
   z-index: 10;
 
@@ -258,7 +258,7 @@ body {
 
 #bg img{
   width: 1024px;
-  height: 768px;
+  height: 600px;
 }
 
 h1 {
@@ -282,16 +282,12 @@ ul li {
   font-size: 15px;
   list-style-type: none;
   list-style-position: outside;
-  max-width: 500px;
+  max-width: 560px;
 }
 
-
-
-
-
-
-
-
+ul li .dates {
+	color: #666;
+}
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.

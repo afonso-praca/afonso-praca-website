@@ -1,9 +1,6 @@
 (function(){
 
-	// on document ready
-	$(document).ready(function(){
-		init();
-	});
+	var imagesList = ["birds1.jpg", "birds2.jpg", "birds3.jpg", "birds4.jpg"];
 
 	function init () {
 		loadImg();
@@ -12,16 +9,19 @@
 	function loadImg(){
 		var img = new Image();
 
-        img.onload = function() {
+		img.onload = function() {
 			animaInit();
-        }
+		};
 
-        img.onerror = function() {
-            console.log("erro no carregamento da imagem");
-            animaInit();
-        }
+		img.onerror = function() {
+			console.log("erro no carregamento da imagem");
+			animaInit();
+		};
 
-        img.src = "img/birds2.jpg";
+		var pos = Math.floor(Math.random() * 4);
+		console.log(pos);
+		img.src = "img/" + imagesList[pos];
+		$("#img-container").attr("src", img.src);
 	}
 
 	function animaInit(){
@@ -45,18 +45,23 @@
 
 	//add HTMLListeners
 	function addListeners(){
-	    $(window).resize(function(){
-	        posImg();
-	    });
+		$(window).resize(function(){
+			posImg();
+		});
 
-	    $('#projetos li, #contatos a')
-		    .on("mouseover", function(){
-		    	$(this).siblings().stop().animate({ opacity: '0.6' }, 300);
-		    })
-		    .on("mouseout", function(){
-		    	$(this).siblings().stop().animate({ opacity: '1' }, 400);
-			});
+		$('#projetos li, #contatos a')
+			.on("mouseover", function(){
+				$(this).siblings().stop().animate({ opacity: '0.6' }, 300);
+			})
+			.on("mouseout", function(){
+				$(this).siblings().stop().animate({ opacity: '1' }, 400);
+		});
 	}
+
+	// on document ready
+	$(document).ready(function(){
+		init();
+	});
 
 })();
 
