@@ -1,6 +1,6 @@
 (function(){
 
-	var imagesList = ["birds1.jpg", "birds2.jpg", "birds3.jpg", "birds4.jpg"];
+	var imagesList = ["birds1.jpg", "birds2.jpg", "birds3.jpg", "birds4.jpg", "birds5.jpg", "birds6.jpg"];
 
 	function init () {
 		loadImg();
@@ -18,8 +18,7 @@
 			animaInit();
 		};
 
-		var pos = Math.floor(Math.random() * 4);
-		console.log(pos);
+		var pos = Math.floor(Math.random() * 5);
 		img.src = "img/" + imagesList[pos];
 		$("#img-container").attr("src", img.src);
 	}
