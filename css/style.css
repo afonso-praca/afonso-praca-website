@@ -249,6 +249,16 @@ body {
   padding-bottom: 5px;
 }
 
+p {
+	color: #AAA;
+	font-family: 'PT Mono', sans-serif;
+	font-size: 15px;
+	max-width: 560px;
+	padding-left: 40px;
+	padding-right: 30px;
+	line-height: 150%;
+}
+
 #bg{
   position: fixed;
   z-index: 1;
@@ -283,6 +293,7 @@ ul li {
   list-style-type: none;
   list-style-position: outside;
   max-width: 560px;
+	line-height: 150%;
 }
 
 ul li .dates {
