@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0e7ac13-cdf4-4eb8-950a-d0f1d8d25342" name="Default" comment="changes project name&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/afonso-praca-resume.pdf" afterPath="$PROJECT_DIR$/afonso-praca-resume.pdf" />
+    <list default="true" id="e0e7ac13-cdf4-4eb8-950a-d0f1d8d25342" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="afonso-praca-website.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="34" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.31509846" vertical-offset="54" max-vertical-offset="2106">
+            <state line="45" column="88" selection-start="2607" selection-end="2607" vertical-scroll-proportion="0.8271335" vertical-offset="54" max-vertical-offset="2106">
               <folding />
             </state>
           </provider>
@@ -226,13 +225,18 @@
       <created>1391536402441</created>
       <updated>1391536402441</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adds new curriculum">
+      <created>1391604853938</created>
+      <updated>1391604853938</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="24" width="1920" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -247,7 +251,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -278,7 +281,8 @@
     <MESSAGE value="adds new summary&#10;" />
     <MESSAGE value="changes project name" />
     <MESSAGE value="changes project name&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes project name&#10;" />
+    <MESSAGE value="adds new curriculum" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds new curriculum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -365,7 +369,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="34" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.31509846" vertical-offset="54" max-vertical-offset="2106">
+        <state line="45" column="88" selection-start="2607" selection-end="2607" vertical-scroll-proportion="0.8271335" vertical-offset="54" max-vertical-offset="2106">
           <folding />
         </state>
       </provider>
