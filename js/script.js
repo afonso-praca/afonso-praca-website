@@ -34,8 +34,8 @@
 	//set size of bg image
 	function posImg(){
 		var $img_bg = $('#bg img');
-		var a = ($(window).width() / $img_bg.width());
-		var b = ($(window).height()/ $img_bg.height());
+		var a = ($(window).width() / $img_bg.width()) * 1.1;
+		var b = ($(window).height()/ $img_bg.height()) * 1.1;
 		var c = Math.max(a, b);
 
 		$img_bg.width($img_bg.width()*c);
